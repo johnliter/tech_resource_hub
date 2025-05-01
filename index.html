@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Tech Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="floating">Cosmic Tech Hub</h1>
+            <p class="subtitle">Your gateway to the universe of technology resources</p>
+            
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search resources...">
+            </div>
+            
+            <div class="categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="news">News</button>
+                <button class="category-btn" data-category="development">Development</button>
+                <button class="category-btn" data-category="ai">AI</button>
+                <button class="category-btn" data-category="security">Security</button>
+                <button class="category-btn" data-category="productivity">Productivity</button>
+                <button class="category-btn" data-category="design">Design</button>
+            </div>
+        </header>
+        
+        <div class="resources-grid" id="resourcesGrid">
+            <!-- Resources will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="currentYear"></span> Technology Resources. Built by John Liter with the drive and motivation to make things easier to find.</p>
+            <p class="github-link">
+                <a href="https://github.com/yourusername/tech-resources-hub" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
