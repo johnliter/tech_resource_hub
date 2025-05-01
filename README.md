@@ -1,6 +1,6 @@
 # Cosmic Tech Hub 🚀
 
-![Cosmic Tech Hub Screenshot](./screenshot.png) *(Add screenshot after uploading)*
+![Cosmic Tech Hub Screenshot](./screenshot.jpg)
 
 A futuristic space-themed directory of technology resources, making it easier to find the best tech websites, blogs, and tools across various categories.
 
